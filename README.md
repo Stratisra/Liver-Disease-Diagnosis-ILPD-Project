@@ -1,1 +1,1 @@
-# Liver-Disease-Diagnosis-ILPD-Project-
+# Liver-Disease-Diagnosis-ILPD-Project

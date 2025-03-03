@@ -1,1 +1,7 @@
 # Liver-Disease-Diagnosis-ILPD-Project
+
+“Liver Disease Prediction” (LDP) is a coding project I built to test the functionality and efficiency of different models in a classification problem. Specifically, LPD uses AI to predict whether a patient suffers from liver disease based on information about several biochemical markers, including albumin and other enzymes required for metabolism. These data are included in the “Indian Liver Patient Dataset” (ILPD) which comprises 583 patient records across different age groups.
+
+The main model I used is a Deep Neural Network (DNN). It consists of an input layer that receives the input features from the preprocessed dataset and multiple dense layers with 16-64 neurons each and nonlinear activation functions, such as ReLU. These hidden layers allow the DNN to learn complex patterns in data and interactions between features that may indicate liver disease risk. The DNN also has an output layer consisting of a single unit with a sigmoid activation function that outputs a probability indicating the likelihood of liver disease presence.
+
+During training, each input sample is passed through the network layers where it gets transformed into output by the weights of each connection and biases of neurons. Then, a binary cross-entropy loss function is used to measure the difference between the predicted and actual labels. Lastly, the network adjusts its weights using backpropagation and an optimizer like Adam or SGD, which aims to minimize the loss by iteratively updating weights.
